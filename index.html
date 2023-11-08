@@ -1,19 +1,55 @@
 <html>
 <head>
-	<title>Hello World</title>
+	<meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Jacob Cayetano</title>
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<h1>Hello World</h1>
-	<img 
-		class="picture-of-me"
-		src="Images/20230726_122243.jpg"
-		alt="Picture of me"
-		width=300
-	/>
-	<div class="main">
-		<nav>
-		</nav>
-	</div>
+	<main>
+		<section class="content">
+			<h2>Output</h2>
+			<h3>Programmer Memes</h3>
+			<div class="meme_content">
+			</div>
+			<h3>Tell me something funny</h3>
+			<div class="joke_content">
+			</div>
+			<h3>Give me some quotes...</h3>
+			<div class="quote_content">
+			</div>
+			<h3>I want a riddle</h3>
+			<div class="riddle_content">
+			</div>
+		</section>
+		
+		<section class="sidebar">
+			<h2>Actions</h2>
+			<button onclick="showMeme()">Show a meme</button>
+			<button onclick="showJoke()">Tell me a joke</button>
+			<button onclick="showQuote()">Random quote</button>
+			<button onclick="showRiddle()">Riddle me</button>
+			<button class="reveal_btn" onclick="revealAnswer()">Reveal riddle answer</button>
+			<p class="attribution">Code practice by 
+				<a href="https://www.linkedin.com/in/jacobcayetano/" target="_top">@jacobcayetano</a>
+			</p>
+			<p class="credit">Practice from freeCodeCamp/Zach Gollwitzer</p>
+		</section>
+		
+		<!--
+		<img 
+			class="picture-of-me"
+			src="Images/20230726_122243.jpg"
+			alt="Picture of me"
+			width=300
+		/>
+		<div class="main">
+			<nav>
+			</nav>
+		</div>
+		-->
+	</main>
+	<script src="./script.js"></script>
 </body>
 </html>
